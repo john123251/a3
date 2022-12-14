@@ -313,7 +313,7 @@ function StakingCardPure({ api, APY }) {
               <div className={styles.cardStakingItemHead}>
                 <div className={styles.cardStakingItemInfo}>
                   <div className={styles.cardStakingItemInfoBlock}>
-                    <div className={styles.cardLabel}>DAI Staked</div>
+                    <div className={styles.cardLabel}>GXP Staked</div>
                     <div className={styles.cardInfoText}>{stakedAmount}</div>
                   </div>
                   {/* <div className={styles.cardStakingItemInfoBlock}>
@@ -382,7 +382,7 @@ function StakingCardPure({ api, APY }) {
       >
         <div className={styles.stakeModal}>
           <Title className={styles.stakeModalTitle} level={3}>
-            Stake DAI
+            Stake GXP
           </Title>
           <div className={styles.stakeModalInputContainer}>
             <Input
@@ -426,12 +426,12 @@ function StakingCardPure({ api, APY }) {
         )}
         <div className={styles.cardHead}>
           <div className={styles.cardHeadLogo}>
-            <img src={DAO1Logo} alt="DAI" />
+            <img src={DAO1Logo} alt="GXP" />
           </div>
           <div className={styles.cardName}>
             <span className={styles.cardLabel}>STAKING POOL</span>
             <span className={styles.cardNameText}>
-              DAI
+            GXP
             </span>
           </div>
         </div>
@@ -439,7 +439,7 @@ function StakingCardPure({ api, APY }) {
         <div className={styles.cardStakingConditions}>
           <div className={styles.cardStakingConditionsItem}>
             <div className={styles.cardLabel}>APY</div>
-            <div className={styles.cardInfoText}>15%</div>
+            <div className={styles.cardInfoText}>846.6%</div>
           </div>
           <div className={styles.cardStakingConditionsItem}>
             <div className={styles.cardLabel}>Lock Period</div>
@@ -451,10 +451,7 @@ function StakingCardPure({ api, APY }) {
             <div className={styles.cardLabel}>Staking/unstaking FEE</div>
             <div className={styles.cardInfoText}>0.5%</div>
           </div>
-          <div className={styles.cardStakingConditionsItem}>
-            <div className={styles.cardLabel}>Early unstaking FEE</div>
-            <div className={styles.cardInfoText}>15%</div>
-          </div>
+          
         </div>
 
         <div className={styles.cardStakingList}>
@@ -472,7 +469,7 @@ function StakingCardPure({ api, APY }) {
         <div className={styles.cardFooter}>
           <div className={styles.cardTatalStaked}>
             <div className={styles.cardLabel}>Total Staked:</div>
-            <div className={styles.cardTatalStakedValue}>{totalStaked} DAI</div>
+            <div className={styles.cardTatalStakedValue}>{totalStaked} GXP</div>
           </div>
           <Button
             onClick={() => setIsStakeModalOpen(true)}
