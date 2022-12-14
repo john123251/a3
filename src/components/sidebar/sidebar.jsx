@@ -30,7 +30,7 @@ export const Sidebar = () => {
             exact
             to="/staking"
             className="li"
-            activeClassName="active-class"
+            activeclassname="active-class"
           >
             Staking
           </NavLink>
